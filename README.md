@@ -1,14 +1,14 @@
 # Enhancing Customer Loyalty at Syriatel: Predictive Modeling for Churn Prevention
 ## Business Understanding
-The Main objective for this notebook is to develop an accurate predictive classifier to identify customer churn for Syriatel, a telecommunications company. The key focus is to assist SyriaTel in mitigating revenues losses by gaining insights into the factors driving customer churn.
+The main objective of this notebook is to develop an accurate predictive classifier to identify customer churn for Syriatel, a telecommunications company. The key focus is to assist SyriaTel in mitigating revenue losses by gaining insights into the factors driving customer churn.
 
-Data processing was conducted to rectify missing values, encode categorical variables, and standardize numerical attributes, ensuring the dataset was prepared for modeling. I conducted an evaluation of four different classification models to assess their performance. After this evaluation, I selected the best-performing model among them. Following this, I examined the most important features in the chosen model.
+Data processing was conducted to rectify missing values, encode categorical variables, and standardize numerical attributes, ensuring the dataset was prepared for modeling. I conducted an evaluation of four different classification models to assess their performance. After this evaluation, I selected the best-performing model among them. Following this, I examined the most important features of the chosen model.
 
 SyriaTel faces a pressing challenge in customer churn, which can lead to substantial financial losses. Customer retention is a top priority, and this project's outcome will empower SyriaTel to proactively address churn, boost customer satisfaction, and maintain its competitive edge in the telecommunications industry.
 
 ## Data Understanding
-The dataset was sourced from [Kaggle](hhttps://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset) and includes valuable insights into customer behaviour patterns. It offers a comprehensive view of features that will be used to predict and
-understand some of the factors that may lead to the termination of their contract with SyriaTel.The data has exactly 3,333 rows and 21 columns The feature columns used for the analysis and predictive modeling include :state, area code, international plan, voice mail plan, number vmail messages, total day minutes, total day calls, total day charge, total eve minutes, total eve calls, total eve charge, total night minutes, total night calls, total night charge, total intl minutes, total intl calls.
+The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset) and includes valuable insights into customer behavior patterns. It offers a comprehensive view of features that will be used to predict and
+understand some of the factors that may lead to the termination of their contract with Syriatel. The data has exactly 3,333 rows and 21 columns The feature columns used for the analysis and predictive modeling include: state, area code, international plan, voice mail plan, number vmail messages, total day minutes, total day calls, total day charge, total eve minutes, total eve calls, total eve charge, total night minutes, total night calls, total night charge, total intl minutes, total intl calls.
 
 Below is a brief description of the features:
 
@@ -143,16 +143,17 @@ Monitor and improve network and service quality in regions with higher churn rat
 ## Conclusion
 In conclusion, this project aimed to identify and understand factors contributing to customer churn in a telecommunications company. Through data analysis and predictive modeling, we discovered significant predictors of churn, including customer service calls, pricing-related metrics, voicemail usage, and international call patterns.
 
-The Random Forest model emerged as the most suitable for predicting churn, offering high accuracy and F1 score. It demonstrated the ability to handle complex relationships between features and capture important patterns in the data. Additionally, feature importance analysis shed light on which factors significantly impact customer churn.
+The Random Forest model emerged as the most suitable for predicting churn, offering high accuracy and F1 score. It demonstrated the ability to handle complex relationships between features and capture important patterns in the data. Additionally, feature importance analysis sheds light on which factors significantly impact customer churn.
 
 ## Repository Structure
 
 ```
+├── Syriatel customer churn
 ├── images
-├── zippedData
-├── .gitignore
-├── Microsoft-Movie-Analysis-Presentation.pdf
 ├── README.md
-└── student.ipynb
+├── README.pdf
+├── churn.pdf(Non-technical presentation)
+├── index.pdf(notebook)
+└── phase3.ipynb
 ```
 
